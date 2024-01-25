@@ -1,0 +1,13 @@
+.discount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightgrey;
+  height: 15rem;
+}
+
+.discount p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  opacity: 0.6;
+}

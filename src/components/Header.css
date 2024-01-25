@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: white;
+}
+
+.logo {
+  flex: 1;
+  height: 50px;
+}
+
+.nav {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.navLink {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.searchAndUser {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.searchInput {
+  margin-right: 1rem;
+}
+
+.userIcon {
+  height: 24px;
+}
